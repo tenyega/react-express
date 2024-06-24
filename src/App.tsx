@@ -12,9 +12,9 @@ function App() {
   return (
     <>
       <div className="h-screen flex">
-        <Menu className="w-1/5 flex flex-col items-center"/>
+        <Menu/>
         <div className="w-2/3 ml-2 flex flex-col">
-          <Navbar className="h-24" />
+          <Navbar/>
           <div className="h-full mt-2 flex flex-col gap-2">
              <div className="h-1/2 flex gap-2">
                 <Statistic />

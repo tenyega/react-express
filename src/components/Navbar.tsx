@@ -1,7 +1,7 @@
 export default function Navbar(){
     return (
         <>
-                    <div className="bg-indigo-300 text-white h-full w-full flex justify-center items-center">
+            <div className="flex items-center justify-center w-full h-24 text-white bg-indigo-300">
 
                 <h3>Composant : Navbar</h3>
                 </div>
