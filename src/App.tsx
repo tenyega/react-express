@@ -11,16 +11,21 @@ function App() {
 
   return (
     <>
-      <div className='vh-100 flex '>
-        <Menu className='w-1/3 pr-2'/>
-        <div className=' w-2/3 flex flex-col gap-5'>
-          <Navbar />
-          <Statistic />
-          <Inventory />
-    
-      <Article />
-      <Action />
-        
+      <div className="h-screen flex">
+        <Menu className="w-1/5 flex flex-col items-center"/>
+        <div className="w-2/3 ml-2 flex flex-col">
+          <Navbar className="h-24" />
+          <div className="h-full mt-2 flex flex-col gap-2">
+             <div className="h-1/2 flex gap-2">
+                <Statistic />
+                <Inventory />
+              </div>
+              <div className="h-1/2 flex gap-2">
+               <Article />
+              <Action /> 
+             </div>
+            
+           </div>   
         </div>
      
       </div>
